@@ -3,6 +3,7 @@
 <image align="right" src="doc_images/screenshot_icon.jpg" alt="Application Icon" width=17%>
 
 “让爷康康”是一款应用于安卓平台的手机应用，可以实时监测不良坐姿并给出语音提示。本项目主要基于 [Tensorflow Lite 官方示例 - 姿态估计](https://github.com/tensorflow/examples/tree/master/lite/examples/pose_estimation/android)实现，其中 AI 部分包含用于姿态估计的 [MoveNet](https://blog.tensorflow.org/2021/05/next-generation-pose-detection-with-movenet-and-tensorflowjs.html)，以及用于对姿态进行分类的[全连接网络](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/lite/g3doc/tutorials/pose_classification.ipynb)。本应用不需要联网使用，所有 AI 特性均在手机本地运行，不需要将视频画面传输至外部服务器，仅需要摄像头权限用于获取姿态画面。视频介绍可以点击 [bilibili](https://www.bilibili.com/video/BV1uD4y187zX/) 或 [YouTube](https://youtu.be/QWUfeczn-tQ)。
+[![Android CI](https://github.com/2926295173/pose-monitor/actions/workflows/android.yml/badge.svg)](https://github.com/2926295173/pose-monitor/actions/workflows/android.yml)
 
 ### 文件结构
 
