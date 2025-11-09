@@ -1,4 +1,4 @@
-# PoseMon 让爷康康
+# PoseMon 让爷康康哇
 
 <image align="right" src="doc_images/screenshot_icon.jpg" alt="Application Icon" width=17%>
 
